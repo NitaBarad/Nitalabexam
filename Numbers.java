@@ -17,18 +17,9 @@ public class Numbers {
         System.out.print("Enter the Third number: ");
         int num3 = input.nextInt();
         
-        int largest = num1;
+        int avg = (num1+num2+num3)/3;
         
-        if (num2 > largest) {
-            largest = num2;
-        }
         
-        if (num3 > largest) {
-            largest = num3;
-        }
-        
-        int sum = largest;
-        
-        System.out.println("The sum of the largest number is: " + sum);
+        System.out.println("The average  is: " + avg);
     }
 }
